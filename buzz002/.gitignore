@@ -1,0 +1,12 @@
+
+
+# Ignore eclipse specific files # 
+.classpath 
+.project
+
+# Ignore gradle specific files # 
+.gradle/ 
+.settings/
+
+# Ignore the class files in bin # 
+bin/

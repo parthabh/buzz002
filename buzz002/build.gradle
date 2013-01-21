@@ -1,0 +1,16 @@
+
+apply plugin: 'java'
+
+def localMavenRepo = 'file://D:/mavenrepo'
+repositories {
+	mavenCentral()
+	mavenRepo url: localMavenRepo
+}
+
+sourceCompatibility = 1.7
+version = '1.0-SNAPSHOT'
+group = 'foo.bar.buzz'
+
+dependencies { testCompile 'junit:junit:4.11' }
+
+
